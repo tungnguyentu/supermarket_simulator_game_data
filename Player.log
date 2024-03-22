@@ -1,0 +1,947 @@
+Mono path[0] = 'C:/Users/admin/Documents/Supermarket.Simulator.v0.1.2.2_LinkNeverDie.Com/Supermarket Simulator_Data/Managed'
+Mono config path = 'C:/Users/admin/Documents/Supermarket.Simulator.v0.1.2.2_LinkNeverDie.Com/MonoBleedingEdge/etc'
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Initialize engine version: 2021.3.31f1 (3409e2af086f)
+[Subsystems] Discovering subsystems at path C:/Users/admin/Documents/Supermarket.Simulator.v0.1.2.2_LinkNeverDie.Com/Supermarket Simulator_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e98)
+    Vendor:   Intel
+    VRAM:     8123 MB
+    Driver:   31.0.101.2111
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.118 seconds
+<RI> Initializing input.
+New input system (experimental) initialized
+Using XInput
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.921600 ms
+Unloading 6 Unused Serialized files (Serialized files now loaded: 3)
+UnloadTime: 8.405500 ms
+System.Exception: SteamApi_Init returned false. Steam isn't running, couldn't find Steam, AppId is ureleased, Don't own AppId.
+  at Steamworks.SteamClient.Init (System.UInt32 appid, System.Boolean asyncCallbacks) [0x00046] in <19bd4cc6a4004258bf538b05ac1133d6>:0 
+  at SteamIntegration.Awake () [0x00000] in <b2a057aaeee84f4998258f3841da0e37>:0 
+Unloading 292 unused Assets to reduce memory usage. Loaded Objects now: 192195.
+Total: 93.512100 ms (FindLiveObjects: 11.031100 ms CreateObjectMapping: 13.755900 ms MarkObjects: 68.311500 ms  DeleteObjects: 0.413000 ms)
+
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a null gameObject.
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "---GAME---/Store/Storage/Walls/Showcase_Store_08/Showcase_Store_Door_08"
+You're attempting to despawn a null gameObject.
+You're attempting to despawn a null gameObject.
+<color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - ): the tween will now be killed ► 
+ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: startIndex
+  at System.String.Insert (System.Int32 startIndex, System.String value) [0x0001b] in <afe256a0391e468fbcdb82154daad696>:0 
+  at CustomTMProInputValidator.Validate (System.String& text, System.Int32& pos, System.Char ch) [0x000f5] in <b2a057aaeee84f4998258f3841da0e37>:0 
+  at TMPro.TMP_InputField.Validate (System.String text, System.Int32 pos, System.Char ch) [0x00366] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.Append (System.Char input) [0x001fb] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.KeyPressed (UnityEngine.Event evt) [0x00235] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) [0x0005f] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessNavigation(NavigationModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: startIndex
+  at System.String.Insert (System.Int32 startIndex, System.String value) [0x0001b] in <afe256a0391e468fbcdb82154daad696>:0 
+  at CustomTMProInputValidator.Validate (System.String& text, System.Int32& pos, System.Char ch) [0x000f5] in <b2a057aaeee84f4998258f3841da0e37>:0 
+  at TMPro.TMP_InputField.Validate (System.String text, System.Int32 pos, System.Char ch) [0x00366] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.Append (System.Char input) [0x001fb] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.KeyPressed (UnityEngine.Event evt) [0x00235] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) [0x0005f] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessNavigation(NavigationModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: startIndex
+  at System.String.Insert (System.Int32 startIndex, System.String value) [0x0001b] in <afe256a0391e468fbcdb82154daad696>:0 
+  at CustomTMProInputValidator.Validate (System.String& text, System.Int32& pos, System.Char ch) [0x000f5] in <b2a057aaeee84f4998258f3841da0e37>:0 
+  at TMPro.TMP_InputField.Validate (System.String text, System.Int32 pos, System.Char ch) [0x00366] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.Append (System.Char input) [0x001fb] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.KeyPressed (UnityEngine.Event evt) [0x00235] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) [0x0005f] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessNavigation(NavigationModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: startIndex
+  at System.String.Insert (System.Int32 startIndex, System.String value) [0x0001b] in <afe256a0391e468fbcdb82154daad696>:0 
+  at CustomTMProInputValidator.Validate (System.String& text, System.Int32& pos, System.Char ch) [0x000f5] in <b2a057aaeee84f4998258f3841da0e37>:0 
+  at TMPro.TMP_InputField.Validate (System.String text, System.Int32 pos, System.Char ch) [0x00366] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.Append (System.Char input) [0x001fb] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.KeyPressed (UnityEngine.Event evt) [0x00235] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) [0x0005f] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessNavigation(NavigationModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: startIndex
+  at System.String.Insert (System.Int32 startIndex, System.String value) [0x0001b] in <afe256a0391e468fbcdb82154daad696>:0 
+  at CustomTMProInputValidator.Validate (System.String& text, System.Int32& pos, System.Char ch) [0x000f5] in <b2a057aaeee84f4998258f3841da0e37>:0 
+  at TMPro.TMP_InputField.Validate (System.String text, System.Int32 pos, System.Char ch) [0x00366] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.Append (System.Char input) [0x001fb] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.KeyPressed (UnityEngine.Event evt) [0x00235] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) [0x0005f] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessNavigation(NavigationModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: startIndex
+  at System.String.Insert (System.Int32 startIndex, System.String value) [0x0001b] in <afe256a0391e468fbcdb82154daad696>:0 
+  at CustomTMProInputValidator.Validate (System.String& text, System.Int32& pos, System.Char ch) [0x000f5] in <b2a057aaeee84f4998258f3841da0e37>:0 
+  at TMPro.TMP_InputField.Validate (System.String text, System.Int32 pos, System.Char ch) [0x00366] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.Append (System.Char input) [0x001fb] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.KeyPressed (UnityEngine.Event evt) [0x00235] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) [0x0005f] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessNavigation(NavigationModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+You're attempting to despawn a null gameObject.
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a null gameObject.
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a null gameObject.
+ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: startIndex
+  at System.String.Insert (System.Int32 startIndex, System.String value) [0x0001b] in <afe256a0391e468fbcdb82154daad696>:0 
+  at CustomTMProInputValidator.Validate (System.String& text, System.Int32& pos, System.Char ch) [0x000f5] in <b2a057aaeee84f4998258f3841da0e37>:0 
+  at TMPro.TMP_InputField.Validate (System.String text, System.Int32 pos, System.Char ch) [0x00366] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.Append (System.Char input) [0x001fb] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.KeyPressed (UnityEngine.Event evt) [0x00235] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) [0x0005f] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessNavigation(NavigationModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: startIndex
+  at System.String.Insert (System.Int32 startIndex, System.String value) [0x0001b] in <afe256a0391e468fbcdb82154daad696>:0 
+  at CustomTMProInputValidator.Validate (System.String& text, System.Int32& pos, System.Char ch) [0x000f5] in <b2a057aaeee84f4998258f3841da0e37>:0 
+  at TMPro.TMP_InputField.Validate (System.String text, System.Int32 pos, System.Char ch) [0x00366] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.Append (System.Char input) [0x001fb] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.KeyPressed (UnityEngine.Event evt) [0x00235] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) [0x0005f] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessNavigation(NavigationModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: startIndex
+  at System.String.Insert (System.Int32 startIndex, System.String value) [0x0001b] in <afe256a0391e468fbcdb82154daad696>:0 
+  at CustomTMProInputValidator.Validate (System.String& text, System.Int32& pos, System.Char ch) [0x000f5] in <b2a057aaeee84f4998258f3841da0e37>:0 
+  at TMPro.TMP_InputField.Validate (System.String text, System.Int32 pos, System.Char ch) [0x00366] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.Append (System.Char input) [0x001fb] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.KeyPressed (UnityEngine.Event evt) [0x00235] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) [0x0005f] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessNavigation(NavigationModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: startIndex
+  at System.String.Insert (System.Int32 startIndex, System.String value) [0x0001b] in <afe256a0391e468fbcdb82154daad696>:0 
+  at CustomTMProInputValidator.Validate (System.String& text, System.Int32& pos, System.Char ch) [0x000f5] in <b2a057aaeee84f4998258f3841da0e37>:0 
+  at TMPro.TMP_InputField.Validate (System.String text, System.Int32 pos, System.Char ch) [0x00366] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.Append (System.Char input) [0x001fb] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.KeyPressed (UnityEngine.Event evt) [0x00235] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) [0x0005f] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessNavigation(NavigationModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: startIndex
+  at System.String.Insert (System.Int32 startIndex, System.String value) [0x0001b] in <afe256a0391e468fbcdb82154daad696>:0 
+  at CustomTMProInputValidator.Validate (System.String& text, System.Int32& pos, System.Char ch) [0x000f5] in <b2a057aaeee84f4998258f3841da0e37>:0 
+  at TMPro.TMP_InputField.Validate (System.String text, System.Int32 pos, System.Char ch) [0x00366] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.Append (System.Char input) [0x001fb] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.KeyPressed (UnityEngine.Event evt) [0x00235] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) [0x0005f] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessNavigation(NavigationModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a null gameObject.
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a null gameObject.
+You're attempting to despawn a null gameObject.
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+You're attempting to despawn a null gameObject.
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a null gameObject.
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a null gameObject.
+ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: startIndex
+  at System.String.Insert (System.Int32 startIndex, System.String value) [0x0001b] in <afe256a0391e468fbcdb82154daad696>:0 
+  at CustomTMProInputValidator.Validate (System.String& text, System.Int32& pos, System.Char ch) [0x000f5] in <b2a057aaeee84f4998258f3841da0e37>:0 
+  at TMPro.TMP_InputField.Validate (System.String text, System.Int32 pos, System.Char ch) [0x00366] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.Append (System.Char input) [0x001fb] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.KeyPressed (UnityEngine.Event evt) [0x00235] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) [0x0005f] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessNavigation(NavigationModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: startIndex
+  at System.String.Insert (System.Int32 startIndex, System.String value) [0x0001b] in <afe256a0391e468fbcdb82154daad696>:0 
+  at CustomTMProInputValidator.Validate (System.String& text, System.Int32& pos, System.Char ch) [0x000f5] in <b2a057aaeee84f4998258f3841da0e37>:0 
+  at TMPro.TMP_InputField.Validate (System.String text, System.Int32 pos, System.Char ch) [0x00366] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.Append (System.Char input) [0x001fb] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.KeyPressed (UnityEngine.Event evt) [0x00235] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) [0x0005f] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessNavigation(NavigationModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: startIndex
+  at System.String.Insert (System.Int32 startIndex, System.String value) [0x0001b] in <afe256a0391e468fbcdb82154daad696>:0 
+  at CustomTMProInputValidator.Validate (System.String& text, System.Int32& pos, System.Char ch) [0x000f5] in <b2a057aaeee84f4998258f3841da0e37>:0 
+  at TMPro.TMP_InputField.Validate (System.String text, System.Int32 pos, System.Char ch) [0x00366] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.Append (System.Char input) [0x001fb] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.KeyPressed (UnityEngine.Event evt) [0x00235] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) [0x0005f] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessNavigation(NavigationModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: startIndex
+  at System.String.Insert (System.Int32 startIndex, System.String value) [0x0001b] in <afe256a0391e468fbcdb82154daad696>:0 
+  at CustomTMProInputValidator.Validate (System.String& text, System.Int32& pos, System.Char ch) [0x000f5] in <b2a057aaeee84f4998258f3841da0e37>:0 
+  at TMPro.TMP_InputField.Validate (System.String text, System.Int32 pos, System.Char ch) [0x00366] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.Append (System.Char input) [0x001fb] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.KeyPressed (UnityEngine.Event evt) [0x00235] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) [0x0005f] in <6a3d2f47e2ec4ee88024c46d1f7f2d5d>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <dfd44c8977c848cd9b993f94ee672a09>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessNavigation(NavigationModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+You're attempting to despawn a null gameObject.
+You're attempting to despawn a null gameObject.
+You're attempting to despawn a null gameObject.
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a null gameObject.
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a null gameObject.
+You're attempting to despawn a null gameObject.
+You're attempting to despawn a null gameObject.
+You're attempting to despawn a null gameObject.
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+This pool contained a null despawned clone, did you accidentally destroy it?
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+Setting up 1 worker threads for Enlighten.
+Singleton of type : CarColliderManager not found on scene
+Singleton of type : CarColliderManager not found on scene
+Singleton of type : CarColliderManager not found on scene
+<color=#ff7337><color=#0099bc><b>DOTWEEN ► </b></color> SAFE MODE ►</color> DOTween's safe mode captured 1 errors. This is usually ok (it's what safe mode is there for) but if your game is encountering issues you should set Log Behaviour to Default in DOTween Utility Panel in order to get detailed warnings when an error is captured (consider that these errors are always on the user side).
+- 1 startup errors
+Singleton of type : CarColliderManager not found on scene
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [2.0 KB-4.0 KB]: 164 frames, [4.0 KB-8.0 KB]: 1 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 44171 frames, [128.0 KB-256.0 KB]: 83048 frames, [256.0 KB-0.5 MB]: 2716 frames, [0.5 MB-1.0 MB]: 42 frames, [4.0 MB-8.0 MB]: 2 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 7.8 MB
+      Peak Allocated Bytes 7.8 MB
+      Overflow Count 18
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 393 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 0.5 MB
+      Peak Allocated Bytes 488.8 KB
+      Overflow Count 45390
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 312.0 KB
+      Peak Allocated Bytes 158.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 312.0 KB
+      Peak Allocated Bytes 158.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 312.0 KB
+      Peak Allocated Bytes 158.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 44.0 KB
+      Peak Allocated Bytes 41.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 30.2 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 5
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 44.0 KB
+      Peak Allocated Bytes 42.2 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 312.0 KB
+      Peak Allocated Bytes 158.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 312.0 KB
+      Peak Allocated Bytes 158.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 36.0 KB
+      Peak Allocated Bytes 35.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_HIDInput]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 10.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 13080
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 5 Subsections = 5120 buckets. Failed count: 16272446
+        32B: 13 Subsections = 6656 buckets. Failed count: 9504178
+        48B: 19 Subsections = 6485 buckets. Failed count: 30069935
+        64B: 172 Subsections = 44032 buckets. Failed count: 232083
+        80B: 22 Subsections = 4505 buckets. Failed count: 503226
+        96B: 10 Subsections = 1706 buckets. Failed count: 259564
+        112B: 9 Subsections = 1316 buckets. Failed count: 211305
+        128B: 6 Subsections = 768 buckets. Failed count: 283724
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 166 frames, [32.0 MB-64.0 MB]: 14978 frames, [64.0 MB-128.0 MB]: 115001 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 7
+      Peak Allocated memory 94.5 MB
+      Peak Large allocation bytes 12.0 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [32.0 MB-64.0 MB]: 24160 frames, [64.0 MB-128.0 MB]: 105984 frames, [128.0 MB-256.0 MB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 4
+      Peak Allocated memory 152.4 MB
+      Peak Large allocation bytes 120.9 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 25
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 20
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 12
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 5 Subsections = 5120 buckets. Failed count: 16272446
+        32B: 13 Subsections = 6656 buckets. Failed count: 9504178
+        48B: 19 Subsections = 6485 buckets. Failed count: 30069935
+        64B: 172 Subsections = 44032 buckets. Failed count: 232083
+        80B: 22 Subsections = 4505 buckets. Failed count: 503226
+        96B: 10 Subsections = 1706 buckets. Failed count: 259564
+        112B: 9 Subsections = 1316 buckets. Failed count: 211305
+        128B: 6 Subsections = 768 buckets. Failed count: 283724
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [8.0 MB-16.0 MB]: 167 frames, [128.0 MB-256.0 MB]: 129978 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 12
+      Peak Allocated memory 186.1 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 166 frames, [32.0 MB-64.0 MB]: 129978 frames, [128.0 MB-256.0 MB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 14
+      Peak Allocated memory 201.8 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 54
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 5 Subsections = 5120 buckets. Failed count: 16272446
+        32B: 13 Subsections = 6656 buckets. Failed count: 9504178
+        48B: 19 Subsections = 6485 buckets. Failed count: 30069935
+        64B: 172 Subsections = 44032 buckets. Failed count: 232083
+        80B: 22 Subsections = 4505 buckets. Failed count: 503226
+        96B: 10 Subsections = 1706 buckets. Failed count: 259564
+        112B: 9 Subsections = 1316 buckets. Failed count: 211305
+        128B: 6 Subsections = 768 buckets. Failed count: 283724
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 167 frames, [32.0 MB-64.0 MB]: 129978 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 11
+      Peak Allocated memory 40.2 MB
+      Peak Large allocation bytes 2.9 MB
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [128.0 MB-256.0 MB]: 130143 frames, [256.0 MB-0.50 GB]: 2 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 69
+      Peak Allocated memory 305.0 MB
+      Peak Large allocation bytes 129.4 MB
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 5 Subsections = 5120 buckets. Failed count: 16272446
+        32B: 13 Subsections = 6656 buckets. Failed count: 9504178
+        48B: 19 Subsections = 6485 buckets. Failed count: 30069935
+        64B: 172 Subsections = 44032 buckets. Failed count: 232083
+        80B: 22 Subsections = 4505 buckets. Failed count: 503226
+        96B: 10 Subsections = 1706 buckets. Failed count: 259564
+        112B: 9 Subsections = 1316 buckets. Failed count: 211305
+        128B: 6 Subsections = 768 buckets. Failed count: 283724
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 130145 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 7.2 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [64.0 KB-128.0 KB]: 130145 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 97.2 KB
+      Peak Large allocation bytes 0 B
