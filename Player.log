@@ -1,0 +1,54 @@
+Mono path[0] = 'C:/Users/tungnt/OneDrive/Desktop/Supermarket.Simulator.v0.1.2.2_LinkNeverDie.Com/Supermarket Simulator_Data/Managed'
+Mono config path = 'C:/Users/tungnt/OneDrive/Desktop/Supermarket.Simulator.v0.1.2.2_LinkNeverDie.Com/MonoBleedingEdge/etc'
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Initialize engine version: 2021.3.31f1 (3409e2af086f)
+[Subsystems] Discovering subsystems at path C:/Users/tungnt/OneDrive/Desktop/Supermarket.Simulator.v0.1.2.2_LinkNeverDie.Com/Supermarket Simulator_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     8111 MB
+    Driver:   30.0.101.1122
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.260 seconds
+<RI> Initializing input.
+New input system (experimental) initialized
+Using XInput
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.701700 ms
+Unloading 6 Unused Serialized files (Serialized files now loaded: 3)
+UnloadTime: 20.017500 ms
+Unloading 292 unused Assets to reduce memory usage. Loaded Objects now: 192301.
+Total: 196.813400 ms (FindLiveObjects: 26.876100 ms CreateObjectMapping: 34.454300 ms MarkObjects: 134.780100 ms  DeleteObjects: 0.702200 ms)
+
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a null gameObject.
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "---GAME---/Store/Storage/Walls/Showcase_Store_08/Showcase_Store_Door_08"
+You're attempting to despawn a null gameObject.
+You're attempting to despawn a null gameObject.
+<color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - ): the tween will now be killed ► 
+Setting up 2 worker threads for Enlighten.
+<color=#ff7337><color=#0099bc><b>DOTWEEN ► </b></color> SAFE MODE ►</color> DOTween's safe mode captured 1 errors. This is usually ok (it's what safe mode is there for) but if your game is encountering issues you should set Log Behaviour to Default in DOTween Utility Panel in order to get detailed warnings when an error is captured (consider that these errors are always on the user side).
+- 1 startup errors
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+Singleton of type : PlayerInteraction not found on scene
+Singleton of type : PlayerInteraction not found on scene
+Singleton of type : PlayerInteraction not found on scene
+Singleton of type : PlayerInteraction not found on scene
+Singleton of type : PlayerInteraction not found on scene
+Singleton of type : PlayerInteraction not found on scene
+Singleton of type : PlayerInteraction not found on scene
+Singleton of type : PlayerInteraction not found on scene
+Singleton of type : SectionManager not found on scene
