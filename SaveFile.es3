@@ -10,7 +10,7 @@
 		"__type" : "SaveManager+EmployeesData,Assembly-CSharp",
 		"value" : {
 			"CashiersData" : [
-				
+				1,2
 			],
 			"RestockersData" : [
 				
@@ -23,52 +23,87 @@
 			"CurrentDayBillAmount" : 0,
 			"Bills" : [
 				{
-					"Date" : 7,
-					"Amount" : 5.77,
+					"Date" : 34,
+					"Amount" : 48.98,
 					"PaymentType" : 1,
 					"LatePaymentFee" : 0
 				},{
-					"Date" : 8,
-					"Amount" : 4.85,
+					"Date" : 35,
+					"Amount" : 50.08,
 					"PaymentType" : 1,
 					"LatePaymentFee" : 0
 				},{
-					"Date" : 9,
-					"Amount" : 4.91,
+					"Date" : 36,
+					"Amount" : 54.26,
 					"PaymentType" : 1,
 					"LatePaymentFee" : 0
 				},{
-					"Date" : 10,
-					"Amount" : 5.88,
+					"Date" : 37,
+					"Amount" : 55.94,
 					"PaymentType" : 1,
 					"LatePaymentFee" : 0
 				}
 			],
 			"Rents" : [
 				{
-					"Date" : 7,
-					"Amount" : 35,
+					"Date" : 34,
+					"Amount" : 65,
 					"PaymentType" : 0,
 					"LatePaymentFee" : 0
 				},{
-					"Date" : 8,
-					"Amount" : 35,
+					"Date" : 35,
+					"Amount" : 65,
 					"PaymentType" : 0,
 					"LatePaymentFee" : 0
 				},{
-					"Date" : 9,
-					"Amount" : 35,
+					"Date" : 36,
+					"Amount" : 65,
 					"PaymentType" : 0,
 					"LatePaymentFee" : 0
 				},{
-					"Date" : 10,
-					"Amount" : 35,
+					"Date" : 37,
+					"Amount" : 65,
 					"PaymentType" : 0,
 					"LatePaymentFee" : 0
 				}
 			],
 			"LoanRepayments" : [
-				
+				{
+					"Date" : 31,
+					"Amount" : 173.333328,
+					"PaymentType" : 2,
+					"LatePaymentFee" : 0
+				},{
+					"Date" : 32,
+					"Amount" : 173.333328,
+					"PaymentType" : 2,
+					"LatePaymentFee" : 0
+				},{
+					"Date" : 33,
+					"Amount" : 173.333328,
+					"PaymentType" : 2,
+					"LatePaymentFee" : 0
+				},{
+					"Date" : 34,
+					"Amount" : 173.333328,
+					"PaymentType" : 2,
+					"LatePaymentFee" : 0
+				},{
+					"Date" : 35,
+					"Amount" : 173.333328,
+					"PaymentType" : 2,
+					"LatePaymentFee" : 0
+				},{
+					"Date" : 36,
+					"Amount" : 173.333328,
+					"PaymentType" : 2,
+					"LatePaymentFee" : 0
+				},{
+					"Date" : 37,
+					"Amount" : 173.333328,
+					"PaymentType" : 2,
+					"LatePaymentFee" : 0
+				}
 			]
 		}
 	},
@@ -78,40 +113,40 @@
 			"Prices" : [
 				{
 					"ProductID" : 33,
-					"Price" : 3.34
+					"Price" : 3.288
 				},{
 					"ProductID" : 70,
-					"Price" : 1.03
+					"Price" : 1.32
 				},{
 					"ProductID" : 83,
-					"Price" : 0.79
+					"Price" : 0.505600035
 				},{
 					"ProductID" : 84,
-					"Price" : 1.2
+					"Price" : 1.58
 				},{
 					"ProductID" : 85,
-					"Price" : 0.983999968
+					"Price" : 1.3
 				},{
 					"ProductID" : 147,
-					"Price" : 1.0656
+					"Price" : 1.37
 				},{
 					"ProductID" : 24,
-					"Price" : 1.15
+					"Price" : 1.06
 				},{
 					"ProductID" : 39,
-					"Price" : 2.06208
+					"Price" : 2.04
 				},{
 					"ProductID" : 55,
-					"Price" : 6.39199972
+					"Price" : 7.19
 				},{
 					"ProductID" : 62,
-					"Price" : 1.99
+					"Price" : 2.39
 				},{
 					"ProductID" : 66,
 					"Price" : 0.9
 				},{
 					"ProductID" : 151,
-					"Price" : 3.13
+					"Price" : 3.264
 				},{
 					"ProductID" : 68,
 					"Price" : 2.95
@@ -174,10 +209,10 @@
 					"Price" : 1.65
 				},{
 					"ProductID" : 61,
-					"Price" : 13.25
+					"Price" : 13.3
 				},{
 					"ProductID" : 63,
-					"Price" : 0.75
+					"Price" : 0.69
 				},{
 					"ProductID" : 69,
 					"Price" : 3.67
@@ -204,7 +239,7 @@
 					"Price" : 6
 				},{
 					"ProductID" : 25,
-					"Price" : 1.55
+					"Price" : 1.69
 				},{
 					"ProductID" : 35,
 					"Price" : 2.75
@@ -213,10 +248,10 @@
 					"Price" : 5.65
 				},{
 					"ProductID" : 101,
-					"Price" : 3.69
+					"Price" : 4.332
 				},{
 					"ProductID" : 123,
-					"Price" : 2.85
+					"Price" : 2.28
 				},{
 					"ProductID" : 125,
 					"Price" : 3.55
@@ -246,22 +281,22 @@
 					"Price" : 7.12
 				},{
 					"ProductID" : 131,
-					"Price" : 6.3
+					"Price" : 5.93
 				},{
 					"ProductID" : 134,
 					"Price" : 1.88
 				},{
 					"ProductID" : 140,
-					"Price" : 8.99
+					"Price" : 10.24
 				},{
 					"ProductID" : 149,
-					"Price" : 18.21
+					"Price" : 17.8
 				},{
 					"ProductID" : 150,
 					"Price" : 15.55
 				},{
 					"ProductID" : 157,
-					"Price" : 9.92
+					"Price" : 8.37
 				},{
 					"ProductID" : 58,
 					"Price" : 5.85
@@ -570,124 +605,265 @@
 			"PricesSetByPlayer" : [
 				{
 					"ProductID" : 70,
-					"Price" : 4.29
+					"Price" : 5.29
 				},{
 					"ProductID" : 33,
-					"Price" : 6.59
+					"Price" : 5.99
 				},{
 					"ProductID" : 147,
-					"Price" : 4.99
+					"Price" : 5.79
 				},{
 					"ProductID" : 85,
-					"Price" : 3.99
+					"Price" : 4.19
 				},{
 					"ProductID" : 83,
-					"Price" : 3.99
+					"Price" : 2.49
 				},{
 					"ProductID" : 84,
-					"Price" : 3.99
+					"Price" : 4.79
 				},{
 					"ProductID" : 55,
-					"Price" : 11.99
+					"Price" : 10.99
 				},{
 					"ProductID" : 39,
 					"Price" : 3.99
 				},{
 					"ProductID" : 66,
-					"Price" : 2.69
+					"Price" : 2.99
 				},{
 					"ProductID" : 24,
-					"Price" : 3.5
+					"Price" : 3.09
 				},{
 					"ProductID" : 62,
-					"Price" : 3.99
+					"Price" : 4.99
 				},{
 					"ProductID" : 151,
-					"Price" : 6.49
+					"Price" : 6.99
+				},{
+					"ProductID" : 35,
+					"Price" : 5.55
+				},{
+					"ProductID" : 69,
+					"Price" : 6.19
+				},{
+					"ProductID" : 125,
+					"Price" : 5.59
+				},{
+					"ProductID" : 63,
+					"Price" : 1.99
+				},{
+					"ProductID" : 75,
+					"Price" : 15.99
+				},{
+					"ProductID" : 61,
+					"Price" : 20.99
+				},{
+					"ProductID" : 116,
+					"Price" : 13.99
+				},{
+					"ProductID" : 131,
+					"Price" : 9.99
+				},{
+					"ProductID" : 140,
+					"Price" : 13.19
+				},{
+					"ProductID" : 134,
+					"Price" : 3.69
+				},{
+					"ProductID" : 25,
+					"Price" : 2.99
+				},{
+					"ProductID" : 150,
+					"Price" : 21.09
+				},{
+					"ProductID" : 157,
+					"Price" : 13.99
+				},{
+					"ProductID" : 52,
+					"Price" : 3.19
+				},{
+					"ProductID" : 10,
+					"Price" : 4.99
+				},{
+					"ProductID" : 123,
+					"Price" : 4.09
+				},{
+					"ProductID" : 101,
+					"Price" : 7.19
+				},{
+					"ProductID" : 149,
+					"Price" : 24.99
+				},{
+					"ProductID" : 42,
+					"Price" : 9.99
 				}
 			],
 			"AverageCosts" : [
 				{
 					"ProductID" : 33,
-					"Price" : 3.34
+					"Price" : 3.28799987
 				},{
 					"ProductID" : 70,
-					"Price" : 1.01862848
+					"Price" : 1.32
 				},{
 					"ProductID" : 83,
-					"Price" : 0.79
+					"Price" : 0.505600035
 				},{
 					"ProductID" : 84,
-					"Price" : 1.2
+					"Price" : 1.57997644
 				},{
 					"ProductID" : 85,
-					"Price" : 0.984
+					"Price" : 1.24804521
 				},{
 					"ProductID" : 147,
-					"Price" : 1.06551981
+					"Price" : 1.37
 				},{
 					"ProductID" : 24,
-					"Price" : 1.14
+					"Price" : 1.06
 				},{
 					"ProductID" : 39,
-					"Price" : 1.79911923
+					"Price" : 2.04
 				},{
 					"ProductID" : 66,
 					"Price" : 0.9
 				},{
 					"ProductID" : 55,
-					"Price" : 6.44839954
+					"Price" : 7.19
 				},{
 					"ProductID" : 62,
-					"Price" : 1.99
+					"Price" : 2.30903673
 				},{
 					"ProductID" : 151,
-					"Price" : 3.05400014
+					"Price" : 3.09059548
+				},{
+					"ProductID" : 125,
+					"Price" : 3.54999971
+				},{
+					"ProductID" : 42,
+					"Price" : 5.65
+				},{
+					"ProductID" : 101,
+					"Price" : 4.332
+				},{
+					"ProductID" : 123,
+					"Price" : 2.328857
+				},{
+					"ProductID" : 35,
+					"Price" : 2.75
+				},{
+					"ProductID" : 25,
+					"Price" : 1.69
+				},{
+					"ProductID" : 157,
+					"Price" : 9.6
+				},{
+					"ProductID" : 10,
+					"Price" : 2.2
+				},{
+					"ProductID" : 52,
+					"Price" : 1.6500001
+				},{
+					"ProductID" : 61,
+					"Price" : 13.0815907
+				},{
+					"ProductID" : 63,
+					"Price" : 0.765410662
+				},{
+					"ProductID" : 69,
+					"Price" : 3.66999984
+				},{
+					"ProductID" : 75,
+					"Price" : 10.27
+				},{
+					"ProductID" : 116,
+					"Price" : 7.12
+				},{
+					"ProductID" : 131,
+					"Price" : 5.937179
+				},{
+					"ProductID" : 140,
+					"Price" : 8.99
+				},{
+					"ProductID" : 149,
+					"Price" : 17.8
+				},{
+					"ProductID" : 150,
+					"Price" : 15.55
+				},{
+					"ProductID" : 134,
+					"Price" : 1.88
 				}
 			],
 			"DailyPriceChanges" : [
 				{
-					"ProductID" : 70,
-					"Price" : 1.03
-				},{
-					"ProductID" : 39,
-					"Price" : 2.06208
-				},{
-					"ProductID" : 24,
-					"Price" : 1.15
+					"ProductID" : 140,
+					"Price" : 10.24
 				}
 			],
 			"PreviousPrices" : [
 				{
 					"ProductID" : 84,
-					"Price" : 1.5
+					"Price" : 1.44
 				},{
 					"ProductID" : 39,
-					"Price" : 1.71839988
+					"Price" : 2.07
 				},{
 					"ProductID" : 55,
-					"Price" : 7.99
+					"Price" : 6.53
 				},{
 					"ProductID" : 147,
-					"Price" : 0.888
+					"Price" : 1.22757125
 				},{
 					"ProductID" : 85,
-					"Price" : 0.82
+					"Price" : 1.19
 				},{
 					"ProductID" : 70,
-					"Price" : 0.9504
+					"Price" : 1.1
 				},{
 					"ProductID" : 24,
-					"Price" : 1.14
+					"Price" : 0.99
 				},{
 					"ProductID" : 66,
-					"Price" : 0.75
+					"Price" : 0.912
 				},{
 					"ProductID" : 151,
-					"Price" : 2.75
+					"Price" : 2.72
 				},{
 					"ProductID" : 33,
-					"Price" : 2.99
+					"Price" : 2.74
+				},{
+					"ProductID" : 62,
+					"Price" : 2.06208
+				},{
+					"ProductID" : 83,
+					"Price" : 0.632
+				},{
+					"ProductID" : 149,
+					"Price" : 17.29
+				},{
+					"ProductID" : 25,
+					"Price" : 1.55
+				},{
+					"ProductID" : 157,
+					"Price" : 9.67
+				},{
+					"ProductID" : 131,
+					"Price" : 5.85
+				},{
+					"ProductID" : 123,
+					"Price" : 2.85
+				},{
+					"ProductID" : 101,
+					"Price" : 3.61
+				},{
+					"ProductID" : 63,
+					"Price" : 0.78
+				},{
+					"ProductID" : 61,
+					"Price" : 13.06
+				},{
+					"ProductID" : 140,
+					"Price" : 8.99
 				}
 			]
 		}
@@ -705,8 +881,8 @@
 	"Quality" : {
 		"__type" : "SaveManager+SettingsContainer,Assembly-CSharp",
 		"value" : {
-			"QualitySetting" : 2,
-			"ResolutionSetting" : 40,
+			"QualitySetting" : 1,
+			"ResolutionSetting" : 43,
 			"LanguageSetting" : -1,
 			"FullScreen" : true,
 			"MouseSensitivity" : 0.5
@@ -716,7 +892,7 @@
 		"__type" : "SaveManager+ProgressionContainer,Assembly-CSharp",
 		"value" : {
 			"UnlockedLicenses" : [
-				21,22
+				21,22,26,30,28
 			],
 			"LoanDatas" : [
 				{
@@ -726,9 +902,9 @@
 					"Taken" : false
 				},{
 					"LoanID" : 2,
-					"TermLength" : -1,
-					"RemainingPayments" : -1,
-					"Taken" : false
+					"TermLength" : 15,
+					"RemainingPayments" : 4,
+					"Taken" : true
 				},{
 					"LoanID" : 3,
 					"TermLength" : -1,
@@ -736,7 +912,7 @@
 					"Taken" : false
 				}
 			],
-			"Money" : 771.4879,
+			"Money" : 7627.254,
 			"CartData" : {
 				"ProductInCarts" : [
 					
@@ -750,236 +926,459 @@
 					"Size" : 2,
 					"Transform" : {
 						"Position" : {
-							"x" : -7.26547766,
-							"y" : -0.004471913,
-							"z" : 5.284222
+							"x" : -0.718476951,
+							"y" : -0.004468724,
+							"z" : -1.33716571
 						},
 						"Rotation" : {
-							"x" : -1.03590025E-08,
-							"y" : 0.5014082,
-							"z" : -7.108546E-09,
-							"w" : -0.8652109
+							"x" : 1.7914057E-05,
+							"y" : 0.707410157,
+							"z" : -3.542597E-05,
+							"w" : 0.706803262
 						}
 					},
 					"IsOpen" : true,
-					"ProductID" : 24,
-					"ProductCount" : 6
-				},{
-					"Size" : 1,
-					"Transform" : {
-						"Position" : {
-							"x" : -7.34031343,
-							"y" : -0.00153531134,
-							"z" : 3.26911926
-						},
-						"Rotation" : {
-							"x" : -2.21586092E-07,
-							"y" : 0.50000006,
-							"z" : -2.65940123E-08,
-							"w" : -0.8660254
-						}
-					},
-					"IsOpen" : true,
-					"ProductID" : 39,
-					"ProductCount" : 9
-				},{
-					"Size" : 5,
-					"Transform" : {
-						"Position" : {
-							"x" : -7.32823038,
-							"y" : -0.0107831061,
-							"z" : 4.19915676
-						},
-						"Rotation" : {
-							"x" : 8.158717E-06,
-							"y" : 0.273832142,
-							"z" : -4.339677E-06,
-							"w" : -0.9617775
-						}
-					},
-					"IsOpen" : true,
-					"ProductID" : 85,
-					"ProductCount" : 1
-				},{
-					"Size" : 1,
-					"Transform" : {
-						"Position" : {
-							"x" : -7.48462629,
-							"y" : -0.00153530389,
-							"z" : 2.39228868
-						},
-						"Rotation" : {
-							"x" : -1.14466822E-07,
-							"y" : 0.7071068,
-							"z" : -3.74893681E-08,
-							"w" : -0.7071068
-						}
-					},
-					"IsOpen" : false,
-					"ProductID" : 62,
-					"ProductCount" : 12
-				},{
-					"Size" : 1,
-					"Transform" : {
-						"Position" : {
-							"x" : -7.07955265,
-							"y" : 0.150000259,
-							"z" : 4.088854
-						},
-						"Rotation" : {
-							"x" : 0.679766655,
-							"y" : 0.194726944,
-							"z" : 0.194726914,
-							"w" : -0.679764748
-						}
-					},
-					"IsOpen" : true,
-					"ProductID" : 62,
-					"ProductCount" : 3
+					"ProductID" : 116,
+					"ProductCount" : 13
 				},{
 					"Size" : 2,
 					"Transform" : {
 						"Position" : {
-							"x" : -7.39634752,
-							"y" : -0.00448557734,
-							"z" : 1.54000461
+							"x" : -0.9318445,
+							"y" : 0.3096478,
+							"z" : 7.15019131
 						},
 						"Rotation" : {
-							"x" : 8.993457E-07,
-							"y" : 0.774159253,
-							"z" : 1.92412358E-06,
-							"w" : -0.632990837
-						}
-					},
-					"IsOpen" : false,
-					"ProductID" : 33,
-					"ProductCount" : 12
-				},{
-					"Size" : 1,
-					"Transform" : {
-						"Position" : {
-							"x" : -7.2955904,
-							"y" : -0.001535356,
-							"z" : 6.04364061
-						},
-						"Rotation" : {
-							"x" : -1.12584509E-07,
-							"y" : 0.258819133,
-							"z" : 3.93632043E-08,
-							"w" : -0.9659258
+							"x" : 0.00450500473,
+							"y" : 0.6088075,
+							"z" : -0.0047216136,
+							"w" : -0.7932913
 						}
 					},
 					"IsOpen" : true,
-					"ProductID" : 84,
-					"ProductCount" : 3
-				},{
-					"Size" : 5,
-					"Transform" : {
-						"Position" : {
-							"x" : -7.22551727,
-							"y" : 0.3049921,
-							"z" : 6.70641565
-						},
-						"Rotation" : {
-							"x" : 0.00142934616,
-							"y" : 0.130597875,
-							"z" : 0.00157891307,
-							"w" : -0.9914332
-						}
-					},
-					"IsOpen" : true,
-					"ProductID" : 83,
-					"ProductCount" : 3
+					"ProductID" : 123,
+					"ProductCount" : 20
 				},{
 					"Size" : 2,
 					"Transform" : {
 						"Position" : {
-							"x" : -7.22721958,
-							"y" : -0.0045196414,
-							"z" : 6.84766674
+							"x" : -0.813710868,
+							"y" : -0.004747957,
+							"z" : 7.38054
 						},
 						"Rotation" : {
-							"x" : 2.4168432E-05,
-							"y" : 0.130497888,
-							"z" : 0.000255480234,
-							"w" : -0.9914486
+							"x" : 8.95832345E-05,
+							"y" : 0.0334974751,
+							"z" : -0.000705160841,
+							"w" : 0.9994386
 						}
 					},
 					"IsOpen" : true,
-					"ProductID" : 147,
-					"ProductCount" : 2
+					"ProductID" : 123,
+					"ProductCount" : 22
 				}
 			],
 			"FurnitureBoxDatas" : [
 				
 			],
-			"DisplayedProductData" : {33:12,70:14,84:24,83:16,147:24,85:24,39:9,66:15,24:8,55:20,151:13,62:12
+			"DisplayedProductData" : {33:40,70:11,84:14,83:10,147:0,85:3,39:23,66:25,24:46,55:10,151:0,62:20,157:2,25:12,35:15,123:8,42:0,125:3,75:0,69:17,63:25,61:11,10:8,52:14,140:11,131:3,116:14,134:13,150:0,101:10,149:0
 			},
 			"DisplayDatas" : [
 				{
 					"Transform" : {
 						"Position" : {
-							"x" : -1.9806658,
-							"y" : 0,
-							"z" : 0.4348206
-						},
-						"Rotation" : {
-							"x" : 0,
-							"y" : 0,
-							"z" : 0,
-							"w" : 1
-						}
-					},
-					"DisplaySlots" : [
-						{
-							"Products" : {70:2
-							},
-							"ProductPrice" : {
-							}
-						},{
-							"Products" : {85:8
-							},
-							"ProductPrice" : {
-							}
-						},{
-							"Products" : {84:12
-							},
-							"ProductPrice" : {
-							}
-						},{
-							"Products" : {151:13
-							},
-							"ProductPrice" : {
-							}
-						},{
-							"Products" : {33:12
-							},
-							"ProductPrice" : {
-							}
-						},{
-							"Products" : {55:4
-							},
-							"ProductPrice" : {
-							}
-						},{
-							"Products" : {70:12
-							},
-							"ProductPrice" : {
-							}
-						},{
-							"Products" : {85:8
-							},
-							"ProductPrice" : {
-							}
-						}
-					],
-					"FurnitureID" : 1
-				},{
-					"Transform" : {
-						"Position" : {
-							"x" : -4.08788633,
+							"x" : -5.83218527,
 							"y" : 4.203895E-45,
-							"z" : 0.425218731
+							"z" : 0.946353734
+						},
+						"Rotation" : {
+							"x" : 0,
+							"y" : 0.7071068,
+							"z" : 0,
+							"w" : -0.7071068
+						}
+					},
+					"DisplaySlots" : [
+						{
+							"Products" : {75:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {52:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {75:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {35:1
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {75:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {63:2
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {85:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {85:0
+							},
+							"ProductPrice" : {
+							}
+						}
+					],
+					"FurnitureID" : 1
+				},{
+					"Transform" : {
+						"Position" : {
+							"x" : -5.19748354,
+							"y" : 4.203895E-45,
+							"z" : 0.93715
+						},
+						"Rotation" : {
+							"x" : 0,
+							"y" : 0.7071068,
+							"z" : 0,
+							"w" : 0.7071068
+						}
+					},
+					"DisplaySlots" : [
+						{
+							"Products" : {35:12
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {85:3
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {35:2
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {85:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {55:8
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {84:11
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {55:2
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {84:3
+							},
+							"ProductPrice" : {
+							}
+						}
+					],
+					"FurnitureID" : 1
+				},{
+					"Transform" : {
+						"Position" : {
+							"x" : -0.271275073,
+							"y" : 4.203895E-45,
+							"z" : 1.43184662
+						},
+						"Rotation" : {
+							"x" : 0,
+							"y" : 0.7071068,
+							"z" : 0,
+							"w" : -0.7071068
+						}
+					},
+					"DisplaySlots" : [
+						{
+							"Products" : {123:8
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {42:0
+							},
+							"ProductPrice" : {
+							}
+						}
+					],
+					"FurnitureID" : 4
+				},{
+					"Transform" : {
+						"Position" : {
+							"x" : -0.499057949,
+							"y" : 3.07171918E-19,
+							"z" : -0.312921643
+						},
+						"Rotation" : {
+							"x" : 0,
+							"y" : 0.7071068,
+							"z" : 0,
+							"w" : -0.7071068
+						}
+					},
+					"DisplaySlots" : [
+						{
+							"Products" : {101:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {101:10
+							},
+							"ProductPrice" : {
+							}
+						}
+					],
+					"FurnitureID" : 4
+				},{
+					"Transform" : {
+						"Position" : {
+							"x" : -2.84218621,
+							"y" : 4.203895E-45,
+							"z" : 0.66330266
+						},
+						"Rotation" : {
+							"x" : 0,
+							"y" : 0.7071068,
+							"z" : 0,
+							"w" : -0.7071068
+						}
+					},
+					"DisplaySlots" : [
+						{
+							"Products" : {33:9
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {70:5
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {33:9
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {70:6
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {33:11
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {151:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {33:11
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {151:0
+							},
+							"ProductPrice" : {
+							}
+						}
+					],
+					"FurnitureID" : 1
+				},{
+					"Transform" : {
+						"Position" : {
+							"x" : -2.21883154,
+							"y" : 4.203895E-45,
+							"z" : 0.6786939
+						},
+						"Rotation" : {
+							"x" : 0,
+							"y" : 0.7071068,
+							"z" : 0,
+							"w" : 0.7071068
+						}
+					},
+					"DisplaySlots" : [
+						{
+							"Products" : {70:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {125:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {125:2
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {125:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {125:1
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {125:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {125:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {125:0
+							},
+							"ProductPrice" : {
+							}
+						}
+					],
+					"FurnitureID" : 1
+				},{
+					"Transform" : {
+						"Position" : {
+							"x" : -7.35328341,
+							"y" : 1.61258166E-14,
+							"z" : -0.718018353
+						},
+						"Rotation" : {
+							"x" : 0,
+							"y" : 0.7071068,
+							"z" : 0,
+							"w" : 0.7071068
+						}
+					},
+					"DisplaySlots" : [
+						{
+							"Products" : {52:4
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {61:2
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {52:10
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {61:2
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {61:1
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {10:5
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {61:6
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {10:3
+							},
+							"ProductPrice" : {
+							}
+						}
+					],
+					"FurnitureID" : 1
+				},{
+					"Transform" : {
+						"Position" : {
+							"x" : -7.298965,
+							"y" : 1.01530239E-38,
+							"z" : -2.20297265
+						},
+						"Rotation" : {
+							"x" : 0,
+							"y" : 0.7071068,
+							"z" : 0,
+							"w" : 0.7071068
+						}
+					},
+					"DisplaySlots" : [
+						{
+							"Products" : {24:7
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {66:5
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {66:4
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {24:8
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {24:8
+							},
+							"ProductPrice" : {
+							}
+						}
+					],
+					"FurnitureID" : 2
+				},{
+					"Transform" : {
+						"Position" : {
+							"x" : -1.10203838,
+							"y" : 4.203895E-45,
+							"z" : -3.58752275
 						},
 						"Rotation" : {
 							"x" : 0,
@@ -990,42 +1389,42 @@
 					},
 					"DisplaySlots" : [
 						{
+							"Products" : {63:10
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {63:6
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {63:7
+							},
+							"ProductPrice" : {
+							}
+						},{
 							"Products" : {83:8
 							},
 							"ProductPrice" : {
 							}
 						},{
-							"Products" : {55:8
+							"Products" : {69:6
 							},
 							"ProductPrice" : {
 							}
 						},{
-							"Products" : {83:8
+							"Products" : {83:2
 							},
 							"ProductPrice" : {
 							}
 						},{
-							"Products" : {55:8
+							"Products" : {69:6
 							},
 							"ProductPrice" : {
 							}
 						},{
-							"Products" : {84:12
-							},
-							"ProductPrice" : {
-							}
-						},{
-							"Products" : {147:12
-							},
-							"ProductPrice" : {
-							}
-						},{
-							"Products" : {147:12
-							},
-							"ProductPrice" : {
-							}
-						},{
-							"Products" : {85:8
+							"Products" : {69:5
 							},
 							"ProductPrice" : {
 							}
@@ -1035,9 +1434,67 @@
 				},{
 					"Transform" : {
 						"Position" : {
-							"x" : -5.537379,
-							"y" : 5.67600544E-08,
-							"z" : 0.454018474
+							"x" : -3.111853,
+							"y" : 3.18712425E-17,
+							"z" : -3.594647
+						},
+						"Rotation" : {
+							"x" : 0,
+							"y" : 0,
+							"z" : 0,
+							"w" : 1
+						}
+					},
+					"DisplaySlots" : [
+						{
+							"Products" : {83:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {75:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {147:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {75:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {147:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {75:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {147:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {75:0
+							},
+							"ProductPrice" : {
+							}
+						}
+					],
+					"FurnitureID" : 1
+				},{
+					"Transform" : {
+						"Position" : {
+							"x" : -4.71811438,
+							"y" : 9.04199135E-17,
+							"z" : -3.658432
 						},
 						"Rotation" : {
 							"x" : 0,
@@ -1053,12 +1510,80 @@
 							"ProductPrice" : {
 							}
 						},{
-							"Products" : {66:8
+							"Products" : {62:1
 							},
 							"ProductPrice" : {
 							}
 						},{
-							"Products" : {62:12
+							"Products" : {62:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {24:8
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {24:7
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {134:7
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {116:8
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {116:6
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {66:4
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {66:5
+							},
+							"ProductPrice" : {
+							}
+						}
+					],
+					"FurnitureID" : 3
+				},{
+					"Transform" : {
+						"Position" : {
+							"x" : -5.639972,
+							"y" : 9.208539E-08,
+							"z" : -3.678001
+						},
+						"Rotation" : {
+							"x" : 0,
+							"y" : 0,
+							"z" : 0,
+							"w" : 1
+						}
+					},
+					"DisplaySlots" : [
+						{
+							"Products" : {131:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {131:3
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {140:11
 							},
 							"ProductPrice" : {
 							}
@@ -1075,6 +1600,92 @@
 						}
 					],
 					"FurnitureID" : 2
+				},{
+					"Transform" : {
+						"Position" : {
+							"x" : -6.26497746,
+							"y" : 7.945927E-13,
+							"z" : -3.68465233
+						},
+						"Rotation" : {
+							"x" : 0,
+							"y" : 0,
+							"z" : 0,
+							"w" : 1
+						}
+					},
+					"DisplaySlots" : [
+						{
+							"Products" : {150:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {25:12
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {134:6
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {39:8
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {62:9
+							},
+							"ProductPrice" : {
+							}
+						}
+					],
+					"FurnitureID" : 2
+				},{
+					"Transform" : {
+						"Position" : {
+							"x" : -6.887847,
+							"y" : 3.44754281E-10,
+							"z" : -3.68195939
+						},
+						"Rotation" : {
+							"x" : 0,
+							"y" : 0,
+							"z" : 0,
+							"w" : 1
+						}
+					},
+					"DisplaySlots" : [
+						{
+							"Products" : {150:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {157:2
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {25:0
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {39:6
+							},
+							"ProductPrice" : {
+							}
+						},{
+							"Products" : {62:10
+							},
+							"ProductPrice" : {
+							}
+						}
+					],
+					"FurnitureID" : 2
 				}
 			],
 			"RackDatas" : [
@@ -1084,15 +1695,30 @@
 				{
 					"Transform" : {
 						"Position" : {
-							"x" : -2.858,
+							"x" : -1.5766722,
 							"y" : 0,
-							"z" : 5.054
+							"z" : 4.829788
 						},
 						"Rotation" : {
 							"x" : 0,
-							"y" : -0.7071068,
+							"y" : 0.7071068,
 							"z" : 0,
-							"w" : 0.7071068
+							"w" : -0.7071068
+						}
+					},
+					"FurnitureID" : 6
+				},{
+					"Transform" : {
+						"Position" : {
+							"x" : -5.637654,
+							"y" : 1.10870175E-29,
+							"z" : 4.571766
+						},
+						"Rotation" : {
+							"x" : 0,
+							"y" : 0.7071068,
+							"z" : 0,
+							"w" : -0.7071068
 						}
 					},
 					"FurnitureID" : 6
@@ -1104,12 +1730,12 @@
 				"ExpensiveProducts" : 0,
 				"ShortChangeAmount" : 0,
 				"TotalCustomerCount" : 0,
-				"StorePoint" : 28,
+				"StorePoint" : 0,
 				"CheckoutIncome" : 0,
-				"SupplyCosts" : -292.33313,
+				"SupplyCosts" : 0,
 				"UpgradeCosts" : 0,
-				"BillCosts" : -5.93,
-				"RentCosts" : -20
+				"BillCosts" : -48.59,
+				"RentCosts" : -65
 			},
 			"FurnitureDatas" : [
 				{
@@ -1172,29 +1798,149 @@
 							"w" : 1
 						}
 					}
+				},{
+					"FurnitureID" : 5,
+					"Transform" : {
+						"Position" : {
+							"x" : -0.751782358,
+							"y" : 2.90000081,
+							"z" : 1.150554
+						},
+						"Rotation" : {
+							"x" : 0,
+							"y" : 0.258819073,
+							"z" : 0,
+							"w" : 0.9659259
+						}
+					}
+				},{
+					"FurnitureID" : 5,
+					"Transform" : {
+						"Position" : {
+							"x" : -2.91035128,
+							"y" : 2.89999938,
+							"z" : -0.440765321
+						},
+						"Rotation" : {
+							"x" : 0,
+							"y" : 0.50000006,
+							"z" : 0,
+							"w" : -0.8660254
+						}
+					}
+				},{
+					"FurnitureID" : 5,
+					"Transform" : {
+						"Position" : {
+							"x" : -1.74162745,
+							"y" : 2.89999938,
+							"z" : -1.91527092
+						},
+						"Rotation" : {
+							"x" : 0,
+							"y" : 0.130526334,
+							"z" : 0,
+							"w" : -0.9914449
+						}
+					}
+				},{
+					"FurnitureID" : 5,
+					"Transform" : {
+						"Position" : {
+							"x" : -4.786811,
+							"y" : 2.89999938,
+							"z" : 0.118962675
+						},
+						"Rotation" : {
+							"x" : 0,
+							"y" : 0.382683456,
+							"z" : 0,
+							"w" : 0.9238795
+						}
+					}
+				},{
+					"FurnitureID" : 5,
+					"Transform" : {
+						"Position" : {
+							"x" : -6.75954676,
+							"y" : 2.89999938,
+							"z" : 1.76393914
+						},
+						"Rotation" : {
+							"x" : 0,
+							"y" : 0,
+							"z" : 0,
+							"w" : 1
+						}
+					}
+				},{
+					"FurnitureID" : 5,
+					"Transform" : {
+						"Position" : {
+							"x" : -3.66672373,
+							"y" : 2.89999938,
+							"z" : 1.060275
+						},
+						"Rotation" : {
+							"x" : 0,
+							"y" : 0.7071068,
+							"z" : 0,
+							"w" : 0.7071068
+						}
+					}
+				},{
+					"FurnitureID" : 5,
+					"Transform" : {
+						"Position" : {
+							"x" : -4.771091,
+							"y" : 2.89999938,
+							"z" : -2.42170835
+						},
+						"Rotation" : {
+							"x" : 0,
+							"y" : 0.5,
+							"z" : 0,
+							"w" : 0.8660254
+						}
+					}
+				},{
+					"FurnitureID" : 5,
+					"Transform" : {
+						"Position" : {
+							"x" : -3.60760474,
+							"y" : 2.89999938,
+							"z" : 2.36552882
+						},
+						"Rotation" : {
+							"x" : 0,
+							"y" : 0.6087614,
+							"z" : 0,
+							"w" : 0.7933533
+						}
+					}
 				}
 			],
 			"ComputerTransform" : {
 				"Position" : {
-					"x" : -0.535,
-					"y" : 0,
-					"z" : 6.91
+					"x" : -7.265851,
+					"y" : 5.60504732E-21,
+					"z" : 6.858205
 				},
 				"Rotation" : {
 					"x" : 0,
-					"y" : -0.7071104,
+					"y" : 0.7071068,
 					"z" : 0,
-					"w" : -0.707103252
+					"w" : -0.7071068
 				}
 			},
 			"CurrentTime" : 0,
-			"CurrentDay" : 11,
+			"CurrentDay" : 38,
 			"LastDayPricesChanged" : 1,
 			"MysteryBox" : false,
-			"CompletedCheckoutCount" : 237,
-			"CurrentStorePoint" : 187,
-			"CurrentStoreLevel" : 8,
-			"StoreUpgradeLevel" : 1,
+			"CompletedCheckoutCount" : 673,
+			"CurrentStorePoint" : 35,
+			"CurrentStoreLevel" : 21,
+			"StoreUpgradeLevel" : 3,
 			"IsStoreOpen" : false
 		}
 	}
